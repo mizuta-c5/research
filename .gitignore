@@ -1,0 +1,27 @@
+# Python venv
+venv/
+.env/
+.venv/
+
+# Pythonキャッシュ
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 大きくなりがちなデータ
+data/
+*.npz
+*.npy
+*.csv
+*.h5
+*.hdf5
+
+# OS, エディタ
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
